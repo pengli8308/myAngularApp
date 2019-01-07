@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'myAngularApp';
+  address = {
+    province: 'FuJian',
+    city: 'XiaMen'
+  }
 }
